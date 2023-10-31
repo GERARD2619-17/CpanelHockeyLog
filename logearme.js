@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 localStorage.setItem('token', data.jwt);
 
                 // Redirige al usuario a una página ficticia de inicio.
-                window.location.href = 'index.html';
+                window.location.href = 'home.html';
             } else {
                 console.error('Error de inicio de sesión');
             }
