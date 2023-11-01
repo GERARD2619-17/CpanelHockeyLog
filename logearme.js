@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const password = document.getElementById('password').value;
 
         try {
-            const response = await fetch('http://192.168.1.7:1337/api/auth/local', {
+            const response = await fetch('http://192.168.1.1:1337/api/auth/local', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
